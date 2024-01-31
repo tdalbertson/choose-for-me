@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="main.js" defer></script>
         <title>Choose For Me</title>
     </head>
     <body>
@@ -14,14 +15,32 @@
                 <p>Let us choose randomly for you.</p>
                 <form id="choice-form">
                     <div class="choice-wrapper">
-                        <label for="choice-1" class="choice-label">Choice 1</label>
-                        <input type="text" class="user-choice" name="choice-1" required data-input-id="input-1"/>
+                        <label for="choice-1" class="choice-label"
+                            >Choice 1</label
+                        >
+                        <input
+                            type="text"
+                            class="user-choice"
+                            name="choice-1"
+                            id="choice-1"
+                            data-input-id="input-1"
+                            required
+                        />
                     </div>
                     <div class="choice-wrapper">
-                        <label for="choice-2" class="choice-label">Choice 2</label>
-                        <input type="text" class="user-choice" name="choice-2" required data-input-id="input-2"/>
+                        <label for="choice-2" class="choice-label"
+                            >Choice 2</label
+                        >
+                        <input
+                            type="text"
+                            class="user-choice"
+                            name="choice-2"
+                            id="choice-2"
+                            data-input-id="input-2"
+                            required
+                        />
                     </div>
-                    <button type="submit">Choose</button>
+                    <button id="submit-button" type="submit">Choose</button>
                 </form>
             </div>
         </main>
